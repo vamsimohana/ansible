@@ -1,0 +1,6 @@
+- name: variables to print
+  hosts: web
+  tasks:
+  - name: print the information
+    ansibel.builtin.debug:
+      msg: " hello iam learning DevOps with AWS, Duration is : 120Hrs Trainer: vamsi"
